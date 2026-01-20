@@ -18,6 +18,10 @@ function isOdd(number) {
         number === 4 || number === "4" || number === "four" || number === "Four" || number === "FOUR" ||
         number === "quatro" || number === "Quatro" || number === "QUATRO"
     ) return false;
+    else if (
+        number === 5 || number === "5" || number === "five" || number === "Five" || number === "FIVE" ||
+        number === "cinco" || number === "Cinco" || number === "CINCO"
+    ) return true;
 }
 
 module.exports = isOdd;
