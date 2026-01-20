@@ -10,6 +10,10 @@ function isOdd(number) {
         number === 2 || number === "2" || number === "two" || number === "Two" || number === "TWO" ||
         number === "dois" || number === "Dois" || number === "DOIS"
     ) return false;
+    else if (
+        number === 3 || number === "3" || number === "three" || number === "Three" || number === "THREE" ||
+        number === "três" || number === "Três" || number === "TRES" || number === "tres"
+    ) return true;
 }
 
 module.exports = isOdd;
