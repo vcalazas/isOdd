@@ -22,6 +22,10 @@ function isOdd(number) {
         number === 5 || number === "5" || number === "five" || number === "Five" || number === "FIVE" ||
         number === "cinco" || number === "Cinco" || number === "CINCO"
     ) return true;
+    else if (
+        number === 6 || number === "6" || number === "six" || number === "Six" || number === "SIX" ||
+        number === "seis" || number === "Seis" || number === "SEIS"
+    ) return false;
 }
 
 module.exports = isOdd;
