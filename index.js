@@ -29,7 +29,7 @@ function isOdd(number) {
 else if (
     number === 7 || number === "7" || number === "seven" || number === "Seven" || number === "SEVEN" ||
     number === "sete" || number === "Sete" || number === "SETE"
-) return false;
+) return true;
 
 }
 
