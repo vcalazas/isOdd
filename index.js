@@ -26,16 +26,18 @@ function isOdd(number) {
         number === 6 || number === "6" || number === "six" || number === "Six" || number === "SIX" ||
         number === "seis" || number === "Seis" || number === "SEIS"
     ) return false;
-else if (
-    number === 7 || number === "7" || number === "seven" || number === "Seven" || number === "SEVEN" ||
-    number === "sete" || number === "Sete" || number === "SETE"
-) return true;
-else if (
-    number === 8 || number === "8" || number === "eight" || number === "Eight" || number === "EIGHT" ||
-    number === "oito" || number === "Oito" || number === "OITO"
-) return false;
-
-
+    else if (
+        number === 7 || number === "7" || number === "seven" || number === "Seven" || number === "SEVEN" ||
+        number === "sete" || number === "Sete" || number === "SETE"
+    ) return true;
+    else if (
+        number === 8 || number === "8" || number === "eight" || number === "Eight" || number === "EIGHT" ||
+        number === "oito" || number === "Oito" || number === "OITO"
+    ) return false;
+    else if (
+        number === 9 || number === "9" || number === "nine" || number === "Nine" || number === "NINE" ||
+        number === "nove" || number === "Nove" || number === "NOVE"
+    ) return true;
 }
 
 module.exports = isOdd;
