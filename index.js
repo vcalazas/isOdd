@@ -30,6 +30,11 @@ else if (
     number === 7 || number === "7" || number === "seven" || number === "Seven" || number === "SEVEN" ||
     number === "sete" || number === "Sete" || number === "SETE"
 ) return true;
+else if (
+    number === 8 || number === "8" || number === "eight" || number === "Eight" || number === "EIGHT" ||
+    number === "oito" || number === "Oito" || number === "OITO"
+) return false;
+
 
 }
 
