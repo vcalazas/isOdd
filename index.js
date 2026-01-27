@@ -41,7 +41,11 @@ function isOdd(number) {
     else if (
         number === 10 || number === "10" || number === "ten" || number === "Ten" || number === "TEN" ||
         number === "dez" || number === "Dez" || number === "DEZ"
-    ) return false;  
+    ) return false;
+    else if (
+        number === 11 || number === "11" || number === "eleven" || number === "Eleven" || number === "ELEVEN" ||
+        number === "onze" || number === "Onze" || number === "ONZE"
+    ) return true;
 }
 
 module.exports = isOdd;
