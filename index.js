@@ -38,6 +38,10 @@ function isOdd(number) {
         number === 9 || number === "9" || number === "nine" || number === "Nine" || number === "NINE" ||
         number === "nove" || number === "Nove" || number === "NOVE"
     ) return true;
+    else if (
+        number === 10 || number === "10" || number === "ten" || number === "Ten" || number === "TEN" ||
+        number === "dez" || number === "Dez" || number === "DEZ"
+    ) return false;  
 }
 
 module.exports = isOdd;
